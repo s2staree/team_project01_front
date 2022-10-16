@@ -22,9 +22,17 @@
 }
 
 
+
 body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 	font-family: 'Pretendard-Regular';
 }
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
 
 
 /*------.header시작------*/
@@ -110,7 +118,8 @@ body {
 /*------.resume01_sec1시작------*/
 .resume01_sec1{
 	height: 440px;
-	background-color: #5e5e5e;
+	width: 100%;
+	background: url(../assets/banner_resume01.jpg) no-repeat center;
 	margin: 0 auto;
 }
 
