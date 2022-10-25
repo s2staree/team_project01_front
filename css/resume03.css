@@ -6,6 +6,17 @@
     font-style: normal;
 }
 
+
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
 /*------.header시작------*/
 .header {
     display: block;
@@ -33,7 +44,6 @@
 .header_inner .gnb li a:hover{
     color: #33ffcc;
 }
-
 
 .header_inner .logo {
     margin-right: 50px;
@@ -86,6 +96,7 @@
 
 
 
+<<<<<<< HEAD:css/resume01.css
 /*------.resume01_sec1시작------*/
 .resume01_sec1{
 	width: 1000px;
@@ -269,16 +280,119 @@
 }
 
 .resume01_sec4 .btn_newresume:hover{
+=======
+/*------.resume_sec시작------*/
+.resume03_sec{
+	width: 1000px;
+	margin: 0 auto;
 	background-color: white;
-	color: #0000ee;
 }
 
+.resume03_sec .sec_box{
+	padding-top: 50px;
+	padding-bottom: 500px;
+	padding-left: 35px;
+	background-color: #f2f2f2;
+}
+
+.resume03_sec .sec_box .box_title{
+	width: 1000px;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+.resume03_sec .sec_box .box_title span{
+	font-size: 20px;
+	line-height: 20px;
+	color: rgb(50, 50, 50);
+}
+
+.resume03_sec .box_cont{
+	background-color: #e2f1ff;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.resume03_sec .sec_box .box_cont ul li{
+	float: left;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumenew{
+	padding-top: 20px;
+	text-align: center;
+	width: 220px;
+	height: 120px;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+>>>>>>> 5c9ecfe78e5758585218172f872c0d1dd99ba218:css/resume03.css
+	background-color: white;
+	margin-right: 14px;
+}
+
+<<<<<<< HEAD:css/resume01.css
 .resume01_sec4 .btn_newresume span{
 	line-height: 50px;
 	font-weight: bold;
 	font-size: 18px;
 }
 /*------.resume01_sec4끝------*/
+=======
+.resume03_sec .sec_box .box_cont .cont_resumenew .resumenew_img{
+	padding-bottom: 5px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumenew .resumenew_img img{
+	width: 70px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumenew .resumenew_text a{
+	color: rgb(50, 50, 50);
+    font-size: 18px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist{
+	width: 220px;
+	height: 140px;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	background-color: white;
+	margin-right: 14px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist:last-child{
+	margin-right: 0;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist{
+	color: #bbb;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_name,
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_date{
+	padding-left: 20px;
+    font-size: 18px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_name{
+	padding-top: 15px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_date{
+	padding-bottom: 35px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_img{
+	border-top: 1px solid #bbb;
+	text-align: right;
+	padding-top: 5px;
+}
+
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_img img{
+	width: 25px;
+	margin-right: 10px;
+}
+/*------.resume_sec끝------*/
+>>>>>>> 5c9ecfe78e5758585218172f872c0d1dd99ba218:css/resume03.css
 
 
 
